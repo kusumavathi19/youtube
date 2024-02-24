@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Rigistration Form</title>
+        <body>
+            <h1>
+                REGISTRATION FORM
+            </h1>
+            <label>First Name:<input type="text" name ="First Name" placeholder="First name"required></label><br><br>
+            <label>Second name:<input type="text" name="Second name" placeholder="Second name"required></label><br><br>
+            <label>Male<input type="radio" name="gender" value="Male"></label>
+            <label>female<input type="radio" name="gender" value="female"></label>
+            <label>other<input type="radio" name="gender" value="other"></label>
+            <label>Email:<input type="email" name="email" placeholder="your email"></label><br><br>
+            <label>password<input type="password" name="password" placeholder="enter your password" pattern =".{5,10}" required title ="please enter passwordbetween 5 to 10"></label>
+            <br><br>
+            <label for ="">Birthday</label>
+            <select id="Birthday" name="Month">
+                <option>Month</option>
+                <option>Jan</option>
+                <option>feb</option>
+            </select>
+            <select id="Birthday" name ="day">
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <select id="Birthday" name ="year">
+                <option>Year</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>4</option>
+            </select><br><BR>
+            <label>I agree to the terms & conditions<input type="checkbox" name="check"></label>
+            <input type="submit" name="Submit">
+        </body>
+    </head>
+</html>
